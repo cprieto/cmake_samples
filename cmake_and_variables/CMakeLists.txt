@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.5)
+project (CMakeVariables)
+set (SOURCES hello.c greeter.c)
+include_directories (${PROJECT_SOURCE_DIR}/includes)
+add_executable (hello ${SOURCES})
